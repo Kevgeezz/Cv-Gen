@@ -1,0 +1,253 @@
+body                         {text-align: center;
+                              font-family: 'Montserrat', sans-serif;}
+
+ .title-heading              {font-weight: 900 /*black*/;
+ 	                          font-size: 3.5rem;
+                              line-height: 1.5;
+                              color: white;
+                              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */}
+
+
+
+h3                           {font-weight: 700 /*bold*/;}
+
+p                            {color: #8f8f8f;}
+
+.coloured-section            {background-color: #ff4c68;
+                              color: white;}
+
+.uncoloured-section          {background-color: white;
+                              color: black;}
+
+.container-fluid             {padding: 3% 15%}
+
+/*Navigation Bar*/
+.navbar                      {padding: 4.5rem 5%;}
+
+.navbar-toggler-icon            {color: red}
+
+.navbar-brand                {font-family: 'Monoton', cursive;
+                              font-size: 1.5rem;
+                              font-weight: 400;
+                              background: rgba(0, 0, 0, 0.8); /* Black background with 0.5 opacity */
+                              color: white}
+.navbar-brand:hover          {color: white;}
+
+.nav-item                    {padding: 0 18px;
+                              color: white;
+                              background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */}
+
+.nav-link                    {font-size: 1.2rem;
+                              font-weight: 100 /*thin*/;
+                              color: white}
+
+/*Download Button*/
+.location-text                {color: white;}
+.btn                         {margin: 5% 3% 5% 0}
+
+/*Title*/
+#title                       {background-image: url(https://www.mercedes-benz.com.eg/en/passengercars/content-pool/marketing-pool/npc-stages/car-accessories-stage/_jcr_content/par/stageelement.MQ6.0.20191009085712.png);
+                              background-position: center;}
+
+.title-img                   {width: 60%;
+                              transform: rotate(25deg);}
+
+/*Features*/
+#features                    {padding: 7% 15%;
+                              background-color: #010a15}
+
+.feature-h3                  {color: white}                              
+
+.feature-box                 {text-align: center;
+                              padding: 4.5%;}
+
+.feature-icon                {color: #ef8172;
+                              margin-bottom: 1rem;}
+
+.feature-icon:hover		     {color: #ff4c68;}
+
+
+/*Testimonials*/
+#testimonials                {text-align: center;
+                              background-color: #010a15;
+                              color: white;}
+
+.testimonial-image           {width: 10%;
+                              border-radius: 100%;
+                              margin: 20px;}
+
+ .carousel-item              {padding: 7% 15%;}
+
+/*Press*/
+#press                       {background-color: #010a15;
+                              text-align: center;
+                              padding-bottom: 3%;}
+
+.press-logo                  {width: 15%;
+                              margin: 20px 20px 50px}
+
+
+/*Price*/
+#pricing                      {padding: 100px 80px 100px;
+                               text-align: center;}
+.price-img                    {width: 100%}
+.pricing-column               {padding: 3% 1% 1%;}
+.pricing-heading              {font-weight: 700 /*bold*/;
+                               font-size: 3rem;
+                               line-height: 1.5;}
+
+
+/*CTA Section*/
+#cta                           {background-color: white;
+                                color: black;
+                                padding: 7% 15%;
+                                text-align: center;}
+
+.cta-heading                   {font-weight: 900 /*black*/;
+                                font-size: 3.5rem;
+                                line-height: 1.5;}
+
+/*footer Section*/
+#footer                         {padding: 5% 15%;
+                                 text-align: center;
+                                 background-color: #010a15;
+                                 color: white;}
+
+
+.social-icon                    {margin-bottom: 60px }
+.envelope                       {
+                                 padding-bottom: 20px; }
+.fa-phone                       {transform: rotate(90deg);
+	                             margin-left: 80px;}
+
+
+
+.table                 {background-color: blue;}
+
+
+  h1 {
+      position: absolute;
+      margin: 0;
+      font-size: 38px;
+      color: #fff;
+      z-index: 2;
+      }
+      p.top-info {
+      margin: 10px 0;
+      }
+      .testbox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: inherit;
+      padding: 20px;
+      }
+      form {
+      width: 100%;
+      padding: 20px;
+      border-radius: 6px;
+      background: #fff;
+      box-shadow: 0 0 25px 0 #1c87c9; 
+      margin-bottom: 90px;}
+     
+    
+      .btn-block {
+      margin-top: 10px;
+      text-align: center;
+      }
+      button {
+      width: auto;
+      padding: 10px;
+      border: none;
+      border-radius: 5px; 
+      background: #4eb741;
+      font-size: 16px;
+      font-weight: 700;
+      color: #fff;
+      cursor: pointer;
+      }
+      button:hover {
+      background: #1e6f;
+      }
+      @media (min-width: 568px) {
+      .name-item, .contact-item, .position-item {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      }
+      .name-item input {
+      width: calc(50% - 20px);
+      }
+      .contact-item .item, .position-item .item {
+      width: calc(50% - 8px);
+      }
+      .contact-item input, .position-item input {
+      width: calc(100% - 12px);
+      }
+      .position-item select {
+      width: 100%;
+      }
+
+
+  @media (max-width: 1028px )  { 
+
+      {}
+
+
+
+
+
+
+
+
+
+
+
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Font Families*/
+font-family: 'Montserrat', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Monoton', cursive;
+font-family: 'Fredoka One', cursive;
+
+
+
+
+
+
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkzgmfpgk7w_zCzazBDnO4THO4B6IlaMuBFA&usqp=CAU
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjY2oZB0e9kdypiXnYOuDUi7Ye26f-H_H8JQ&usqp=CAU
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtTHQKeYP5_ZnGTFnGp5Vmb42RqfHYuzrnXw&usqp=CAU
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUe9-IgLBNYRkX8GL8oAHFTQWkr8GwrGYpww&usqp=CAU
